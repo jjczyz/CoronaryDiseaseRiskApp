@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Coronary Disease Risk</string>
+    <string name="startButton_text">Start</string>
+    <string name="nextButton_text">Next</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    <string name="result_description">Thank you for your answers. The number above represents your 10-year risk of suffering from a major coronary disease. Anything above 5% is considered high and requires medical consultation.</string>
+
+    <!-- questions for survey -->
+
+    <string-array name="questions">
+        <item>What is your sex?</item>
+        <item>Do you smoke?</item>
+        <item>How old are you?</item>
+        <item>What is your systolic blood pressure?</item>
+        <item>What is your total cholesterol?</item>
+    </string-array>
+
+    <string-array name="question1_answers">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="question2_answers">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="question3_answers">
+        <item>40–49</item>
+        <item>50–54</item>
+        <item>55–59</item>
+        <item>60–64</item>
+        <item>65+</item>
+    </string-array>
+
+    <string-array name="question4_answers">
+        <item>less than 140</item>
+        <item>140–159</item>
+        <item>160–179</item>
+        <item>180+</item>
+    </string-array>
+
+    <string-array name="question5_answers">
+        <item>4,0–4,9 [mmol/l] / 100–149 [mg/dl]</item>
+        <item>5,0–5,9 [mmol/l] / 150–199 [mg/dl]</item>
+        <item>6,0–6,9 [mmol/l] / 200–249 [mg/dl]</item>
+        <item>7,0–7,9 [mmol/l] / 250–299 [mg/dl]</item>
+        <item>8,0+ [mmol/l] / 300+ [mg/dl]</item>
+    </string-array>
+
+    <string-array name="questionsAndAnswers">
+        <item>@array/questions</item>
+        <item>@array/question1_answers</item>
+        <item>@array/question2_answers</item>
+        <item>@array/question3_answers</item>
+        <item>@array/question4_answers</item>
+        <item>@array/question5_answers</item>
+    </string-array>
+    <string name="title_activity_result">ResultActivity</string>
+</resources>
