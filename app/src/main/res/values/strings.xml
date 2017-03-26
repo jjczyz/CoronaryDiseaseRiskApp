@@ -3,7 +3,11 @@
     <string name="startButton_text">Start</string>
     <string name="nextButton_text">Next</string>
     <string name="title_activity_question">QuestionActivity</string>
-    <string name="result_description">Thank you for your answers. The number above represents your 10-year risk of suffering from a major coronary disease. Anything above 5% is considered high and requires medical consultation.</string>
+    <string name="result_description">Thank you for your answers. The number above represents your 10 year risk of suffering from a major coronary disease. A result above 5% is considered high and requires medical consultation.</string>
+    <string name="advice_text">High coronary disease risk is often due to an unhealthy lifestyle. Exercising, smoking less or stopping altogether and administering a healthy diet are all good ways of reducing it.</string>
+    <string name="welcome_text">
+        This simple application will calculate your risk of suffering from a coronary disease. In order to do that you need to answer a few short questions.
+        Know that this is not a self diagnosing tool and should not be treated as such.</string>
 
     <!-- questions for survey -->
 
@@ -46,6 +50,8 @@
         <item>6,0–6,9 [mmol/l] / 200–249 [mg/dl]</item>
         <item>7,0–7,9 [mmol/l] / 250–299 [mg/dl]</item>
         <item>8,0+ [mmol/l] / 300+ [mg/dl]</item>
+        <item>I don\'t know</item>
+
     </string-array>
 
     <string-array name="questionsAndAnswers">

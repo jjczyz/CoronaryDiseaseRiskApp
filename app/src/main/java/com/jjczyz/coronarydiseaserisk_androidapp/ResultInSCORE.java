@@ -84,11 +84,20 @@ public class ResultInSCORE implements Serializable{
         ta.recycle();
     }
 
-    public int getResult()
+    public String getResult()
     {
-        return result[questions.get(0).getSelectedAnswerNum()][questions.get(1).getSelectedAnswerNum()]
-                        [questions.get(2).getSelectedAnswerNum()][questions.get(3).getSelectedAnswerNum()]
-                        [questions.get(4).getSelectedAnswerNum()];
+        if(questions.get(4).getSelectedAnswerNum() == 5)
+        {
+            return (Integer.toString(result[questions.get(0).getSelectedAnswerNum()][questions.get(1).getSelectedAnswerNum()]
+                            [questions.get(2).getSelectedAnswerNum()][questions.get(3).getSelectedAnswerNum()][0])
+                    + "-" +
+                    Integer.toString(result[questions.get(0).getSelectedAnswerNum()][questions.get(1).getSelectedAnswerNum()]
+                            [questions.get(2).getSelectedAnswerNum()][questions.get(3).getSelectedAnswerNum()]
+                            [4]));
+        }
+        return Integer.toString(result[questions.get(0).getSelectedAnswerNum()][questions.get(1).getSelectedAnswerNum()]
+                               [questions.get(2).getSelectedAnswerNum()][questions.get(3).getSelectedAnswerNum()]
+                               [questions.get(4).getSelectedAnswerNum()]);
     }
 
     Question getQuestion(int q)
