@@ -1,13 +1,16 @@
 <resources>
-    <string name="app_name">Coronary Disease Risk</string>
-    <string name="startButton_text">Start</string>
-    <string name="nextButton_text">Next</string>
-    <string name="title_activity_question">QuestionActivity</string>
-    <string name="result_description">Thank you for your answers. The number above represents your 10 year risk of suffering from a major coronary disease. A result above 5% is considered high and requires medical consultation.</string>
-    <string name="advice_text">High coronary disease risk is often due to an unhealthy lifestyle. Exercising, smoking less or stopping altogether and administering a healthy diet are all good ways of reducing it.</string>
-    <string name="welcome_text">
-        This simple application will calculate your risk of suffering from a coronary disease. In order to do that you need to answer a few short questions.
-        Know that this is not a self diagnosing tool and should not be treated as such.</string>
+
+
+    <string name="result_description">Thank you for your answers. The number above represents your 10 year risk of
+        suffering from a major coronary disease. A result above 5% is considered high and requires medical consultation.
+    </string>
+    <string name="advice_text">High coronary disease risk is often due to an unhealthy lifestyle. Exercising, smoking
+        less or stopping altogether and administering a healthy diet are all good ways of reducing it.
+    </string>
+    <string name="about_text">This application will calculate your 10 year risk of suffering from a coronary disease.
+        The calculation is based on Systematic COronary Risk Evaluation (SCORE) which is the European cardiovascular disease risk assessment model.
+        For more information about SCORE or more detailed risk evaluation tests you can visit the site of <a href="https://www.escardio.org/Education/Practice-Tools/CVD-prevention-toolbox/SCORE-Risk-Charts">European Society Of Cardiology</a>.
+    </string>
 
     <!-- questions for survey -->
 
@@ -62,5 +65,16 @@
         <item>@array/question4_answers</item>
         <item>@array/question5_answers</item>
     </string-array>
+
+
+    <string name="startButton_text">Start</string>
+    <string name="nextButton_text">Next</string>
+    <string name="aboutButton_text">About</string>
+
+    <string name="app_name">Coronary Disease Risk</string>
     <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_question">QuestionActivity</string>
+
+
 </resources>

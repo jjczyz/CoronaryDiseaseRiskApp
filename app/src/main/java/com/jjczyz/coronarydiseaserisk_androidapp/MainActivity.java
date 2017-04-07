@@ -33,4 +33,9 @@ public class MainActivity extends AppCompatActivity {
         // ignore orientation/keyboard change
         super.onConfigurationChanged(newConfig);
     }
+
+    public void showAbout(View view) {
+        Intent i = new Intent(this, AboutActivity.class);
+        startActivity(i);
+    }
 }

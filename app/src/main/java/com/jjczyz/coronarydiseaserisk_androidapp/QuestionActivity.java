@@ -11,9 +11,9 @@ import java.io.Serializable;
 
 public class QuestionActivity extends Activity{
 
-    Question currentQuestion;
-    ResultInSCORE score;
-    int questionNum;
+    private Question currentQuestion;
+    private ResultInSCORE score;
+    private int questionNum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -17,7 +17,6 @@ public class ResultActivity extends Activity {
 
         TextView result = (TextView) findViewById(R.id.risk_textview);
         result.setText(score.getResult()+"%");
-        TextView description = (TextView) findViewById(R.id.result_description_textview);
     }
 
 }
