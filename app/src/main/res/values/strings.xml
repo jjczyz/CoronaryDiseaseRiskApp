@@ -4,12 +4,32 @@
     <string name="result_description">Thank you for your answers. The number above represents your 10 year risk of
         suffering from a major coronary disease. A result above 5% is considered high and requires medical consultation.
     </string>
-    <string name="advice_text">High coronary disease risk is often due to an unhealthy lifestyle. Exercising, smoking
-        less or stopping altogether and administering a healthy diet are all good ways of reducing it.
+    <string name="advice_text">High coronary disease risk is often due to an unhealthy lifestyle. Click below for advice
+        about improving it.
     </string>
     <string name="about_text">This application will calculate your 10 year risk of suffering from a coronary disease.
-        The calculation is based on Systematic COronary Risk Evaluation (SCORE) which is the European cardiovascular disease risk assessment model.
-        For more information about SCORE or more detailed risk evaluation tests you can visit the site of <a href="https://www.escardio.org/Education/Practice-Tools/CVD-prevention-toolbox/SCORE-Risk-Charts">European Society Of Cardiology</a>.
+        The calculation is based on Systematic Coronary Risk Evaluation (SCORE) which is the European cardiovascular
+        disease risk assessment model.
+        For more information about SCORE or more detailed risk evaluation tests you can visit the site of <a
+                href="https://www.escardio.org/Education/Practice-Tools/CVD-prevention-toolbox/SCORE-Risk-Charts">
+            European Society Of Cardiology</a>.
+    </string>
+    <string name="cardiovascular_info">Risk Assessments are used to determine the likelihood of patient developing cardiovascular disease, heart attack or stroke in the future.
+        In general, patients at higher risk for cardiovascular disease require more intensive treatment to help prevent the development of cardiovascular disease.
+        Risk assessments are calculated using a number of factors including age, gender, race, cholesterol and blood pressure levels, diabetes and smoking status and the use of blood pressure-lowering medications.
+        Typically, these factors are used to estimate a patient\'s risk of developing cardiovascular disease in the next 10 years.
+    </string>
+    <string name="diet_info">Diet is vital tool for lowering cholesterol and blood pressure levels, which are two major risk factors for cardiovascular disease.
+        Patients with high cholesterol and high blood pressure levels should eat plenty of vegetables, fruits and whole grains and incorporate low-fat dairy products, pultry, fish, legumes, non-tropical vegetable oils and nuts into their diet.
+        They should also limit intake of sweets, sugar-sweetened beverages and red meats.
+        Patients who need to lower their cholesterol should reduce saturated and trans fat intake.
+        Patients with high blood pressure should consume no more than 2,400 mg of sodium a day, ideally reducing sodium intake to 1,500 mg a day.
+        In general, adults should engage in aerobic physical activity 3-4 times a week with each session lasting an average of 40 minutes.
+        Moderate to vigorous physical activity is recommended to reduce cholesterol levels.
+    </string>
+    <string name="weight_info">Obesity increases the risk for serious conditions such as cardiovascular disease or diabetes, but losing just a little bit of weight can result in significant health benefits.
+        There is no single diet or weight loss program that works best for all patients. In general, reduced caloric intake and a comprehensive lifestyle intervention involving physical activity and behavior modification tailored according to a patient\'s preferences and health status is most successfull.
+        Bariatric surgery may be a good option for severely obese patients to reduce their risk of health complications and improve overall health. However, bariatric surgery should be reserved for only the highest risk patients.
     </string>
 
     <!-- questions for survey -->
@@ -75,6 +95,7 @@
     <string name="title_activity_result">ResultActivity</string>
     <string name="title_activity_about">AboutActivity</string>
     <string name="title_activity_question">QuestionActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
 
 
 </resources>

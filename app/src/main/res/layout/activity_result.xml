@@ -33,10 +33,28 @@
                 android:text=""
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/textView"/>
-        <TextView
-                android:text="@string/advice_text"
-                android:textSize="18sp"
+        <Button
+                android:text="Understanding Cardiovascular Risk"
+                android:onClick="showInfo"
+                android:textSize="12sp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_weight="0.19"/>
+                android:layout_height="wrap_content" android:id="@+id/cardio_risk_info_button"/>
+        <Button
+                android:text="Diet and physical activity"
+                android:onClick="showInfo"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/diet_info_button"/>
+        <Button
+                android:text="Weight management"
+                android:onClick="showInfo"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/weight_info_button"/>
+        <Button
+                android:text="Back"
+                android:onClick="backToMain"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content" android:id="@+id/backButton"/>
     </LinearLayout>
 </RelativeLayout>
